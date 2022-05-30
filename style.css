@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenier {
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff ;
+    display: flex;
+    border-top: 1px  solid gray;
+    border-bottom: 1px solid gray;
+}
+#header a {
+    margin-top: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: gray;
+}
+#header p{
+    padding: 0 20px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.column {
+    margin-left: 70px;
+}
+#header input {
+    
+    padding: 15px 10px;
+    padding-right: 100px;
+    border-top: none;
+    border-bottom: none;
+    margin: 20px 10px;
+    margin-left: 140px;
+}
+.column-1 {
+    font-size: -15px;
+}
+#header a:hover {
+    color: red;
+}
+#header input:active {
+    border-top: none;
+    border-bottom: none;
+}
+#navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+}
+#navbar img {
+    width: 15%;
+    height: 60%;
+    
+    margin-top: 20px;
+}
+#navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding-bottom: -40px;
+    position: relative;
+    top: -20px;
+    margin-left: 15px;
+    color: #000;
+}
+#navbar a:hover {
+    color: red;
+}
+#banner img {
+    width: 100%;
+    height: 400px;
+}
+#logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#logo .text-1{
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+#logo .text-2 {
+    padding:25px 0;
+    display: inline-block;
+    margin-left: 75px;
+    
+}
+#logo h4 {
+    margin-left: 500px;
+    display: inline-block;
+}
+#section {
+    width: 100%;
+    height: 600px;
+    justify-content: left;
+}
+#section .box-1 {
+    height: 100%;
+    width: 30%;
+    
+}
+#section .box-1 img {
+    width: 100%;
+    height: 280px;
+}
+#section .box-1 b {
+    display: block;
+    padding: 8px 0;
+    color: gray;
+}
+#section .box-1 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    
+}
+#section .box-1 a:hover {
+    color: red;
+}
+#section .box-1 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#section .box-2 {
+    height: 100%;
+    width: 30%;
+    margin-left: 25px;
+   position: relative;
+   top:-560px ;
+   left: 350px;
+}
+#section .box-2 img {
+    width: 100%;
+    height: 280px;
+}
+#section .box-2 b {
+    display: block;
+    padding: 8px 0;
+    color: gray;
+}
+#section .box-2 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    
+}
+#section .box-2 a:hover {
+    color: red;
+}
+#section .box-2 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#section .box-3 {
+    height: 100%;
+    width: 30%;
+    margin-left: 25px;
+   position: relative;
+   top:-1120px ;
+   left: 720px;
+}
+#section .box-3 img {
+    width: 100%;
+    height: 280px;
+}
+#section .box-3 h3 {
+    padding: 15px 0;
+}
+#section .box-3 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#absolute {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(245, 237, 237);
+}
+#absolute h1 {
+    padding: 30px 30px;
+    display:inline-block;
+}
+#absolute a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 700px;
+}
+#absolute a:hover {
+    color: blue;
+}
+#absolute .box-1 {
+    height: 100%;
+    width: 30%;
+    
+}
+#absolute .box-1 img {
+    width: 100%;
+    height: 280px;
+}
+#absolute .box-1 b {
+    display: inline-block;
+    padding-top: 8px ;
+    color: gray;
+}
+#absolute .box-1 h2 {
+    padding: 10px 0;
+}
+
+
+#absolute .box-1 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#absolute .box-2 {
+    height: 100%;
+    width: 30%;
+    margin-left: 25px;
+   position: relative;
+   top:-592px ;
+   left: 350px;
+}
+#absolute .box-2 img {
+    width: 100%;
+    height: 280px;
+}
+#absolute .box-2 b {
+    display: block;
+    padding: 8px 0;
+    color: gray;
+}
+#absolute .box-2 h2 {
+    padding: 10px 0;
+}
+#absolute .box-2 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#absolute .box-3 {
+    height: 100%;
+    width: 30%;
+    margin-left: 25px;
+   position: relative;
+   top:-1172px ;
+   left: 720px;
+}
+#absolute .box-3 img {
+    width: 100%;
+    height: 280px;
+}
+#absolute .box-3 b {
+    color: gray;
+    display: block;
+    padding: 8px 0;
+}
+#absolute .box-3 h3 {
+    padding: 15px 0;
+}
+#absolute .box-3 p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+#box {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+}
+#box h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.card {
+    display: flex;
+    
+}
+#box .card .card-1 {
+    height: 100%;
+    width: 35%;
+}
+.card-2 {
+    height: 100%;
+    width: 55%;
+    margin-top: 0;
+}
+.card-2 p {
+  font-size: 20px;
+  font-family: sans-serif;
+  
+}
+#box a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 860px;
+}
+#box a:hover {
+    color: red;
+}
